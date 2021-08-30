@@ -36,7 +36,6 @@ class MovieAdapter(context: Context?, movies: List<movie>) : RecyclerView.Adapte
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var movieTitle: TextView
-        var movieDescription: TextView? = null
         var movieDate: TextView
         var movieImg: ImageView
 

@@ -17,7 +17,6 @@ import java.util.*
 class MovieViewModel : ViewModel() {
     var moviesL: MutableList<movie> = ArrayList()
     var adapter: MovieAdapter? = null
-    private val RequestQueue: Any? = null
     fun extractMovies(ctx: Context?, recyclerView: RecyclerView?) {
         val queue = Volley.newRequestQueue(ctx)
         val jsonArrayRequest = JsonObjectRequest(Request.Method.GET, JSON_URL, null, Response.Listener { response ->
