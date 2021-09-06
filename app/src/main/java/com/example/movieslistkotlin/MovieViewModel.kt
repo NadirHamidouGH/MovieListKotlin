@@ -15,6 +15,7 @@ import org.json.JSONException
 import java.util.*
 
 class MovieViewModel : ViewModel() {
+
     var moviesL: MutableList<movie> = ArrayList()
     var adapter: MovieAdapter? = null
     fun extractMovies(ctx: Context?, recyclerView: RecyclerView?) {
