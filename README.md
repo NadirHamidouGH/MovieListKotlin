@@ -1,4 +1,4 @@
-Le lien direct pour télécharger le .zip file du projet : https://github.com/NadirHamidouGH/MovieListKotlin/archive/refs/heads/master.zip
+Direct link the .zip file of the project : https://github.com/NadirHamidouGH/MovieListKotlin/archive/refs/heads/master.zip
 
 
 here is a Gif figure that shows how this code works : 
